@@ -32,7 +32,14 @@ public class Main {
     }
 
     public static void clock() {
-        try {
+        LocalDateTime prevTime = LocalDateTime.MIN;
+        while(true) {
+            LocalDateTime currentTime =LocalDateTime.now();
+            if(currentTime.getSecond()!=prevTime.getSecond())
+            System.out.println(currentTime.format(DateTimeFormatter.ofPattern("HH:mm:ss")));
+            prevTime=currentTime;
+        }
+       /*  try {
             while (true) {
                 LocalDateTime currentTime = LocalDateTime.now();
                 String formattedTime = currentTime.format(DateTimeFormatter.ofPattern("HH:mm:ss"));
@@ -41,6 +48,6 @@ public class Main {
             }
         } catch (InterruptedException e) {
             e.printStackTrace();
-        }
+        }*/
     }
 }
