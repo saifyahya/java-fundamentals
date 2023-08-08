@@ -2,7 +2,7 @@
 
 # Table of contents
 
-|  Files    |    Methods    |
-|------|        |
-|  basics|  pluralize, clock,flipNHeads      |
-| basiclibrary|  roll, containsDuplicates, average, lowesAverageArray      |
+|   Files         |       Methods                    |
+|-----------------|---------------------------------|
+|  basics         |  pluralize, clock, flipNHeads    |
+| basiclibrary    |  roll, containsDuplicates, average, lowesAverageArray |
