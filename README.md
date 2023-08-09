@@ -5,4 +5,4 @@
 |   Files         |       Methods                    |
 |-----------------|---------------------------------|
 |  basics         |  pluralize, clock, flipNHeads    |
-| basiclibrary    |  roll, containsDuplicates, average, lowesAverageArray |
+| basiclibrary    |  roll, containsDuplicates, average, lowestAverageArray |
