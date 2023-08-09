@@ -9,29 +9,34 @@ public class Library {
     }
 
     public int[] roll(int n) {
+        if (n<=0)
+            return new int[0];
         int arr[] = new int[n];
         for (int i = 0; i < n; i++) {
-            arr[i]=(int)(Math.random()*5)+1;
+            arr[i]=(int)(Math.random()*6)+1;
         }
         return arr;
     }
     public boolean containsDuplicates(int arr[]) {
-        HashSet<Integer> uniqeSet=new HashSet<Integer>();
+        HashSet<Integer> uniqueSet=new HashSet<Integer>();
         for (int i : arr) {
-                if (uniqeSet.contains(i))
+                if (uniqueSet.contains(i))
                     return true;
-                uniqeSet.add(i);
+                uniqueSet.add(i);
         }
         return false;
     }
-
     public double average(int arr[]) {
+        if(arr.length==0)
+            return 0;
         int sum=0;
         for(int i:arr)
             sum+=i;
        return (double) sum/arr.length;
     }
     public int[] lowestAverageArray(int arr[][]) {
+        if (arr.length==0)
+            return new int[0];
         int lowestAvgIndex=0;
         double sum=0;
         double lastAvg=0;
