@@ -5,4 +5,6 @@
 |   Files         |       Methods                    |
 |-----------------|---------------------------------|
 |  basics         |  pluralize, clock, flipNHeads    |
-| basiclibrary    |  roll, containsDuplicates, average, lowestAverageArray |
+| basiclibrary    |  roll, containsDuplicates, average, lowestAverageArray, minMaxTemp, tally |
+| linter    |  fileReader |
+
