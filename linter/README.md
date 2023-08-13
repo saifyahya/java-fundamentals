@@ -1,0 +1,2 @@
+### fileReader 
+it is a function to read the text file from the given path inside the function, and read the file line by line. in case there is a line that doesn't end with semicolon ";", it prints the warning: Line number does not end with semicolon. Else if the line is: empty, or ends with "}", or "{", or "else", or "if" it does not print the warning. 
