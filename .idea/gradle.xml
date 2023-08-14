@@ -10,6 +10,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/basiclibrary" />
+            <option value="$PROJECT_DIR$/basiclibrary/lib" />
           </set>
         </option>
       </GradleProjectSettings>
@@ -21,6 +22,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/linter" />
+            <option value="$PROJECT_DIR$/linter/app" />
           </set>
         </option>
       </GradleProjectSettings>
