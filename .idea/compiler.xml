@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="basiclibrary.lib" target="11" />
+      <module name="basiclibrary.lib.main" target="11" />
+      <module name="basiclibrary.lib.test" target="11" />
+      <module name="linter.app" target="11" />
+      <module name="linter.app.main" target="11" />
+      <module name="linter.app.test" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
