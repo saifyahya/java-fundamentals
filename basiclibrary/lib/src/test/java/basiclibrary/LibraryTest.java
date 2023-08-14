@@ -5,15 +5,22 @@ package basiclibrary;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Arrays;
 
 
 class LibraryTest {
- 
-    @Test public void testRoll()   {
+
+
+    @Test
+    void someLibraryMethodReturnsTrue() {
+        Library classUnderTest = new Library();
+/*
+        assertTrue(classUnderTest.someLibraryMethod(), "someLibraryMethod should return 'true'");
+*/
+    }
+    @Test public void testRoll() {
         Library sut = new Library();
         int result[] = sut.roll(3);
         Assertions.assertEquals(3, result.length);
@@ -50,4 +57,8 @@ class LibraryTest {
         String result = sut.tally(votes);
         Assertions.assertEquals("Bush",result);
     }
+
+
+
 }
+
