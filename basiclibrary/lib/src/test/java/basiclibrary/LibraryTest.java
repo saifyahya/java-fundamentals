@@ -13,7 +13,7 @@ import java.util.Arrays;
 
 class LibraryTest {
  
-    @Test public void testRoll() {
+    @Test public void testRoll()   {
         Library sut = new Library();
         int result[] = sut.roll(3);
         Assertions.assertEquals(3, result.length);
