@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3b878184-cdd5-407e-8565-103585947105" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/main/java/basiclibrary/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/main/java/basiclibrary/Library.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linter/app/src/test/java/linter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/test/java/linter/AppTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +25,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/basiclibrary">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -52,11 +55,11 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Saify/IdeaProjects/java-fundamentals&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.LibraryTest.testCreatUniqueSet">
-    <configuration name="LibraryTest.testCreatUniqueSet" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.AppTest.testReader3">
+    <configuration name="AppTest.testReader" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/basiclibrary" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -64,9 +67,9 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":lib:test" />
+            <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;basiclibrary.LibraryTest.testCreatUniqueSet&quot;" />
+            <option value="&quot;linter.AppTest.testReader&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -76,10 +79,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="LibraryTest.tetMinMaxTemp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="AppTest.testReader1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/basiclibrary" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -87,9 +90,78 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value=":lib:test" />
+            <option value=":app:test" />
             <option value="--tests" />
-            <option value="&quot;basiclibrary.LibraryTest.tetMinMaxTemp&quot;" />
+            <option value="&quot;linter.AppTest.testReader1&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testReader2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;linter.AppTest.testReader2&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testReader3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;linter.AppTest.testReader3&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="AppTest.testReader4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":app:test" />
+            <option value="--tests" />
+            <option value="&quot;linter.AppTest.testReader4&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -114,8 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.LibraryTest.testCreatUniqueSet" />
-        <item itemvalue="Gradle.LibraryTest.tetMinMaxTemp" />
+        <item itemvalue="Gradle.AppTest.testReader3" />
+        <item itemvalue="Gradle.AppTest.testReader4" />
+        <item itemvalue="Gradle.AppTest.testReader2" />
+        <item itemvalue="Gradle.AppTest.testReader1" />
+        <item itemvalue="Gradle.AppTest.testReader" />
       </list>
     </recent_temporary>
   </component>
