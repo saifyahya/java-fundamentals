@@ -55,24 +55,33 @@ public class Library {
         return arr[lowestAvgIndex];
     }
 
-    public void minMaxTemp(int weeklyMonthTemperatures[][]) {
-        HashSet<Integer> uniqueSet = new HashSet<>();
-        for (int[] weeklyTemp : weeklyMonthTemperatures) {
-            for (int temp : weeklyTemp) {
-                uniqueSet.add(temp);
-            }
-        }
-
+    public ArrayList<Integer> minMaxTemp(int weeklyMonthTemperatures[][]) {
+        HashSet<Integer> uniqueSet = createUniqueSet(weeklyMonthTemperatures);  //call the function below to create and fill
+        ArrayList<Integer> result = new ArrayList<>(); //this is used to be returned for test the result
         Integer [] uniqueArr = uniqueSet.toArray(new Integer[uniqueSet.size()]);  //set.toArray() return Object
-        Arrays.sort(uniqueArr); //I need to convert tht hashset to arraylist or array due to sorting
+        Arrays.sort(uniqueArr); //I need to convert the hashset to arraylist or array due to sorting
         int min =uniqueArr[0];
         int max = uniqueArr[uniqueArr.length-1];
         System.out.println("High: "+Collections.max(uniqueSet));
+        result.add(max);
         System.out.println("Low: "+Collections.min(uniqueSet));
+        result.add(min);
         for(int i= min+1;i<max;i++) {
-            if(!uniqueSet.contains(i))
-                System.out.println("never saw tempreture:"+i);
+            if(!uniqueSet.contains(i)) {
+                System.out.println("never saw temperature:" + i);
+                 result.add(i);
+            }
         }
+        return result;
+    }
+    public HashSet<Integer> createUniqueSet(int array2D[][]){
+        HashSet<Integer> uniqueSet = new HashSet<>();
+        for (int[] oneRaw : array2D) {
+            for (int temp : oneRaw) {
+                uniqueSet.add(temp);
+            }
+        }
+return uniqueSet;
     }
     public  String tally(List<String> votes) {
         HashMap<String, Integer> map = new HashMap<>();

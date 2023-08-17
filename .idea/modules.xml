@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/basiclibrary.iml" filepath="$PROJECT_DIR$/.idea/modules/basiclibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/basiclibrary.lib.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/basiclibrary.lib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/basiclibrary.lib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/basiclibrary.lib.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lib/basiclibrary.lib.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lib/basiclibrary.lib.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/linter.iml" filepath="$PROJECT_DIR$/.idea/modules/linter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linter.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linter.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linter.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linter.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/linter.app.test.iml" filepath="$PROJECT_DIR$/.idea/modules/app/linter.app.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java-fundamentals.iml" filepath="$PROJECT_DIR$/.idea/java-fundamentals.iml" />
     </modules>
   </component>
 </project>
