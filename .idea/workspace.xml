@@ -5,6 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b878184-cdd5-407e-8565-103585947105" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data-structure/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/app/src/main/java/data/structure/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/app/src/main/java/data/structure/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/app/src/test/java/data/structure/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data-structure/settings.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/linter/app/src/test/java/linter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/test/java/linter/AppTest.java" afterDir="false" />
