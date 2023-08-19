@@ -77,6 +77,7 @@ class LibraryTest {
         votes.add("Bush");
         votes.add("Hedge");
         votes.add("Bush");
+        votes.add("Bush");
         Library sut = new Library();
         String result = sut.tally(votes);
         Assertions.assertEquals("Bush",result);
