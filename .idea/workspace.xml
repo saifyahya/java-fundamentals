@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b878184-cdd5-407e-8565-103585947105" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/data-structure/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/app/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/app/src/main/java/data/structure/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/app/src/main/java/data/structure/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/app/src/test/java/data/structure/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data-structure/settings.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/main/java/linter/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linter/app/src/test/java/linter/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/linter/app/src/test/java/linter/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +23,6 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <task path="$PROJECT_DIR$/basiclibrary">
-          <activation />
-        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -72,145 +50,6 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Saify/IdeaProjects/java-fundamentals&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.AppTest.testReader3">
-    <configuration name="AppTest.testReader" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;linter.AppTest.testReader&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppTest.testReader1" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;linter.AppTest.testReader1&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppTest.testReader2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;linter.AppTest.testReader2&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppTest.testReader3" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;linter.AppTest.testReader3&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="AppTest.testReader4" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/linter" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":app:test" />
-            <option value="--tests" />
-            <option value="&quot;linter.AppTest.testReader4&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="linter" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="linter" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Gradle.AppTest.testReader3" />
-        <item itemvalue="Gradle.AppTest.testReader4" />
-        <item itemvalue="Gradle.AppTest.testReader2" />
-        <item itemvalue="Gradle.AppTest.testReader1" />
-        <item itemvalue="Gradle.AppTest.testReader" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
