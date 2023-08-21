@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b878184-cdd5-407e-8565-103585947105" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basiclibrary/lib/src/test/java/basiclibrary/LibraryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/linter.app.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/linter.app.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
