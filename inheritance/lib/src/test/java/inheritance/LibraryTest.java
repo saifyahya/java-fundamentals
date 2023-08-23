@@ -20,19 +20,19 @@ class LibraryTest {
     }
     @Test void reviewConstructor () {       // test creating instance of Review class and toString() method
         Restaurant res = new Restaurant("Burrgurize",15);
-        Review rev = new Review("nice restaurant","saif",5,res);
+        Review rev = new Review("nice restaurant","saif",5);
         String result ="Review{" +
                 "body='" + "nice restaurant" + '\'' +
                 ", author='" + "saif" + '\'' +
                 ", stars=" + 5 +
-                ", restaurant=" + res +
+                ", " +
                 '}';
         Assertions.assertEquals(result,rev.toString());
     }
-    @Test void addReview () {    // test  the association is created between the Restaurant and the Review
+    @Test void addReviewRestaurant () {    // test  the association is created between the Restaurant and the Review
         Restaurant res = new Restaurant("PizzaHut",15);
-        Review rev = new Review("nice restaurant","saif",5,res);
-        Review rev1 = new Review("nice restaurant","saif",4,res);
+        Review rev = new Review("nice restaurant","saif",5);
+        Review rev1 = new Review("nice restaurant","saif",4);
 
         res.addReview(rev);
         String result ="Restaurant{" +
@@ -45,11 +45,11 @@ class LibraryTest {
         Assertions.assertEquals(result,res.toString());
 
     }
-    @Test void addReviewRepeated () {  // test associating different reviews with the restaurant and updating the stars
+    @Test void addReviewRestaurantRepeated () {  // test associating different reviews with the restaurant and updating the stars
         Restaurant res = new Restaurant("PizzaHut",15);
-        Review rev1 = new Review("nice restaurant","saif",5,res);
-        Review rev2 = new Review("bad restaurant","saif",3,res);
-        Review rev3 = new Review("nice restaurant","saif",4,res);
+        Review rev1 = new Review("nice restaurant","saif",5);
+        Review rev2 = new Review("bad restaurant","saif",3);
+        Review rev3 = new Review("nice restaurant","saif",4);
         res.addReview(rev1);
         res.addReview(rev2);
         res.addReview(rev3);
@@ -59,5 +59,33 @@ class LibraryTest {
                 ", price=" + 15.0 +
                 '}';
         Assertions.assertEquals(result,res.toString());
+    }
+    @Test void shopConstructor() {   // test shop constructor
+        Shop adidas = new Shop("Adidas","sports wear",100);
+        String expectedResult= "Shop{" +
+                "name='" + "Adidas" + '\'' +
+                ", description='" + "sports wear" + '\'' +
+                ", dollarSigns=" + 100 +
+                '}';
+        Assertions.assertEquals(expectedResult,adidas.toString());
+    }
+    @Test void testTheaterFunctionality() {  // test Theater constructor, addMovie, removeMovie
+        Theater theater = new Theater("Amman");
+        theater.addMovie("Interstaller");
+        theater.addMovie("Openhimer");
+        theater.addMovie("The Mount");
+        theater.removeMovie("Openhimer");
+        String expectedResult = "Theater{movies=[Interstaller, The Mount], name='Amman'}";
+        Assertions.assertEquals(expectedResult,theater.toString());
+    }
+    @Test void theaterReview() {  // test adding review to the Theater with movie name
+        Theater theater = new Theater("Amman");
+        theater.addMovie("Interstaller");
+        theater.addMovie("Openhimer");
+        theater.addMovie("The Mount");
+        Review movieReview=new Review("nice movie","saif",4,"Interstaller");
+        theater.addReview(movieReview);
+        String expectedResult ="";
+        Assertions.assertNotEquals(expectedResult,theater.getReviews().get(0));
     }
 }

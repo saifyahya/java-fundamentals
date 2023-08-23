@@ -1,6 +1,6 @@
 package inheritance;
 import java.util.ArrayList;
-public class Restaurant {
+public class Restaurant implements ReviewI{
     private String Name;
     private int stars;
     private double price;
@@ -19,12 +19,11 @@ public class Restaurant {
                 ", price=" + price +
                 '}';
     }
+    @Override
     public void addReview(Review review) {
         if(!reviews.contains(review))
-            {
-        reviews.add(review);  //associate the new review with the Restaurant reviews list
+            reviews.add(review);  //associate the new review with the Restaurant reviews list
         updateStars(); // update the stars of the Restaurant
-    }
     }
     public void updateStars() {
             int avg=0;

@@ -4,12 +4,17 @@ public class Review{
     private String body;
     private String author;
     private int stars;
-   Restaurant restaurant;  // to show that review is for this restaurant
-    public Review(String body, String author, int stars,Restaurant restaurant) {
+    private String movie;   // this field when reviewing a movie in Theater class
+    public Review(String body, String author, int stars) {
 this.stars=stars;
 this.body=body;
 this.author=author;
-this.restaurant=restaurant;
+    }
+    public Review(String body, String author, int stars,String movie) {   // constructor for Theater class
+        this.stars=stars;
+        this.body=body;
+        this.author=author;
+        this.movie=movie;
     }
     public int getStars(){
         return stars;
@@ -27,7 +32,7 @@ this.restaurant=restaurant;
                 "body='" + body + '\'' +
                 ", author='" + author + '\'' +
                 ", stars=" + stars +
-                ", restaurant=" + restaurant +
+                ", " +
                 '}';
     }
 }
