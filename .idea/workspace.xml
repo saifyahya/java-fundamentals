@@ -5,8 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b878184-cdd5-407e-8565-103585947105" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/inheritance/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/inheritance/lib/src/main/java/inheritance/Restaurant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/app/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/app/src/main/java/data/structure/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/app/src/main/java/data/structure/LinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/app/src/test/java/data/structure/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-structure/settings.gradle" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
