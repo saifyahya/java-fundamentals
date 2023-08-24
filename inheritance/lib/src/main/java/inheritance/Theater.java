@@ -2,16 +2,14 @@ package inheritance;
 
 import java.util.ArrayList;
 
-public class Theater implements ReviewI{
+public class Theater extends AbsReview{
     private ArrayList<String> movies;
-    private String name;
-    private ArrayList<Review> reviews;
- public Theater(String name) {
-     this.name=name;
-     this.movies= new ArrayList<>();
-     this.reviews=new ArrayList<>();
- }
 
+ public Theater(String name) {
+     super(name);
+     this.movies= new ArrayList<>();
+
+ }
  public void addMovie(String newMovie) {
      movies.add(newMovie);
  }
@@ -21,7 +19,6 @@ public class Theater implements ReviewI{
  public ArrayList getReviews(){
      return reviews;
  }
-
     @Override
     public String toString() {
         return "Theater{" +
@@ -29,7 +26,6 @@ public class Theater implements ReviewI{
                 ", name='" + name + '\'' +
                 '}';
     }
-
     @Override
     public void addReview(Review review) {
             if(!reviews.contains(review))
