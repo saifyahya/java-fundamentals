@@ -5,9 +5,10 @@ package inheritance;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
 
-class LibraryTest {
+import java.util.ArrayList;
+
+class InheritanceTest {
     @Test void  restaurantConstructor(){    // test creating instance of Restaurant class and toString() method
         Restaurant res = new Restaurant("PizzaHut",15);
         String actualResult= res.toString();
@@ -85,7 +86,16 @@ class LibraryTest {
         theater.addMovie("The Mount");
         Review movieReview=new Review("nice movie","saif",4,"Interstaller");
         theater.addReview(movieReview);
-        String expectedResult ="";
-        Assertions.assertNotEquals(expectedResult,theater.getReviews().get(0));
+        ArrayList <Review> expectedReview = new ArrayList<>();
+        expectedReview.add(movieReview);
+        Assertions.assertEquals(expectedReview,theater.reviews);
+    }
+    @Test void shopReview() {  // test adding review to the Shop class
+        Shop adidas = new Shop("Adidas","sports wear",100);
+        Review shopReview=new Review("nice shop","saif",4);
+        adidas.addReview(shopReview);
+        ArrayList <Review>expectedReview = new ArrayList<>();
+        expectedReview.add(shopReview);
+        Assertions.assertEquals(expectedReview,adidas.reviews);
     }
 }

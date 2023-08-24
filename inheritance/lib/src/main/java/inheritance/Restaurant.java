@@ -1,20 +1,18 @@
 package inheritance;
 import java.util.ArrayList;
-public class Restaurant implements ReviewI{
-    private String Name;
+public class Restaurant extends  AbsReview{
     private int stars;
     private double price;
-    private ArrayList<Review> reviews;
-    public Restaurant(String Name, double price) {
-        this.Name=Name;
+    public Restaurant(String name, double price) {
+        super((name));
         this.stars=0;
         this.price=price;
-        this.reviews=new ArrayList<>();
+
     }
     @Override
     public String toString() {
         return "Restaurant{" +
-                "Name='" + Name + '\'' +
+                "Name='" + name + '\'' +
                 ", stars=" + stars +
                 ", price=" + price +
                 '}';
@@ -28,7 +26,7 @@ public class Restaurant implements ReviewI{
     public void updateStars() {
             int avg=0;
             for(Review review:reviews){
-                avg+=review.getStars();
+                avg+=review.stars;
         }
             avg/=reviews.size();
             stars=avg;
